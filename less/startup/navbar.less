@@ -1,0 +1,89 @@
+//
+// startup navbar styles
+// ----------------------------------------------
+
+.navbar-startup {
+  background-color: @navbar-startup-bg;
+  border-color: @navbar-startup-border;
+  margin-bottom: 0;
+
+  .navbar-brand {
+    color: @navbar-startup-brand-color;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    > li > a {
+      color: @navbar-startup-link-color;
+			font-size: 18px;
+      font-weight: bold;
+      text-shadow: 0 0 2px @navbar-link-shadow-color;
+
+      &:hover,
+      &:focus {
+        color: @navbar-startup-link-hover-color;
+        background-color: @navbar-startup-link-hover-bg;
+        outline: none;
+      }
+    }
+
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-startup-link-active-color;
+        background-color: @navbar-startup-link-active-bg;
+      }
+    }
+
+    @media (max-width: @screen-xs-max) {
+      margin: 0 -15px;
+
+      > li > a {
+        text-align: center;
+        border-top: 1px solid @navbar-startup-border;
+
+        &:hover,
+        &:focus {
+          background-color: @navbar-startup-link-active-bg;
+        }
+      }
+    }
+  }
+
+  // Darken the responsive nav toggle
+  .navbar-toggle {
+    border-color: @navbar-startup-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-startup-toggle-hover-bg;
+    }
+    .icon-bar {
+      background-color: @navbar-startup-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: darken(@navbar-startup-bg, 7%);
+  }
+
+
+  @media (max-width: @screen-xs-max) {
+    .navbar-collapse {
+      border-top: 0;
+    }
+
+    .navbar-brand {
+      margin-left: 15px;
+    }
+  }
+}
+
+@media (min-width: @grid-float-breakpoint) {
+  .navbar-startup-collapse {
+    float: right;
+  }
+}

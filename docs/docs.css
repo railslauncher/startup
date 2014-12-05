@@ -1,0 +1,24 @@
+/*
+ * Styles used only for Solo documentation purpose.
+ */
+
+
+body {
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+.label.label-primary {
+  font-size: 17px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #555;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}

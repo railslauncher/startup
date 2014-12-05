@@ -1,0 +1,38 @@
+//
+// Services section styles
+// --------------------------------------------
+
+.service {
+  margin-top: 25px;
+
+  > h3.service-title {
+    background-color: @service-title-bg;
+    margin: 0 auto;
+    max-width: 360px;
+    font-size: 28px;
+    padding: 15px;
+    border: 1px solid @service-title-border-color;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+
+    > i {
+      width: 100%;
+      font-size: 50px;
+      color: @theme-bg;
+    }
+  }
+
+  > img.service-snap {
+    max-width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 6px -6px #222;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    text-align: center;
+
+		> h3.service-title {
+	  	padding: 10px;
+	  }
+  }
+}
