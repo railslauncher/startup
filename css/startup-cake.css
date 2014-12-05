@@ -31,49 +31,49 @@ body {
   border-bottom: 1px solid #ccc;
   background-image: url(../images/wall.png);
 }
-.btn-solo {
+.btn-startup {
   color: #ffffff;
   background-color: #956232;
   border-color: #6f4925;
   font-size: 18px;
 }
-.btn-solo:hover,
-.btn-solo:focus,
-.btn-solo:active,
-.btn-solo.active,
-.open > .dropdown-toggle.btn-solo {
+.btn-startup:hover,
+.btn-startup:focus,
+.btn-startup:active,
+.btn-startup.active,
+.open > .dropdown-toggle.btn-startup {
   color: #ffffff;
   background-color: #6f4925;
   border-color: #412b16;
 }
-.btn-solo:active,
-.btn-solo.active,
-.open > .dropdown-toggle.btn-solo {
+.btn-startup:active,
+.btn-startup.active,
+.open > .dropdown-toggle.btn-startup {
   background-image: none;
 }
-.btn-solo.disabled,
-.btn-solo[disabled],
-fieldset[disabled] .btn-solo,
-.btn-solo.disabled:hover,
-.btn-solo[disabled]:hover,
-fieldset[disabled] .btn-solo:hover,
-.btn-solo.disabled:focus,
-.btn-solo[disabled]:focus,
-fieldset[disabled] .btn-solo:focus,
-.btn-solo.disabled:active,
-.btn-solo[disabled]:active,
-fieldset[disabled] .btn-solo:active,
-.btn-solo.disabled.active,
-.btn-solo[disabled].active,
-fieldset[disabled] .btn-solo.active {
+.btn-startup.disabled,
+.btn-startup[disabled],
+fieldset[disabled] .btn-startup,
+.btn-startup.disabled:hover,
+.btn-startup[disabled]:hover,
+fieldset[disabled] .btn-startup:hover,
+.btn-startup.disabled:focus,
+.btn-startup[disabled]:focus,
+fieldset[disabled] .btn-startup:focus,
+.btn-startup.disabled:active,
+.btn-startup[disabled]:active,
+fieldset[disabled] .btn-startup:active,
+.btn-startup.disabled.active,
+.btn-startup[disabled].active,
+fieldset[disabled] .btn-startup.active {
   background-color: #956232;
   border-color: #6f4925;
 }
-.btn-solo .badge {
+.btn-startup .badge {
   color: #956232;
   background-color: #ffffff;
 }
-.btn-solo:focus {
+.btn-startup:focus {
   outline: none;
 }
 .loader {
@@ -158,72 +158,72 @@ h4 {
     font-size: 25px;
   }
 }
-.navbar-solo {
+.navbar-startup {
   background-color: #956232;
   border-color: #674423;
   margin-bottom: 0;
 }
-.navbar-solo .navbar-brand {
+.navbar-startup .navbar-brand {
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
   padding: 0;
 }
-.navbar-solo .navbar-nav > li > a {
+.navbar-startup .navbar-nav > li > a {
   color: #ebebeb;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 0 0 2px #555555;
 }
-.navbar-solo .navbar-nav > li > a:hover,
-.navbar-solo .navbar-nav > li > a:focus {
+.navbar-startup .navbar-nav > li > a:hover,
+.navbar-startup .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent;
   outline: none;
 }
-.navbar-solo .navbar-nav > .active > a,
-.navbar-solo .navbar-nav > .active > a:hover,
-.navbar-solo .navbar-nav > .active > a:focus {
+.navbar-startup .navbar-nav > .active > a,
+.navbar-startup .navbar-nav > .active > a:hover,
+.navbar-startup .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #764e28;
 }
 @media (max-width: 767px) {
-  .navbar-solo .navbar-nav {
+  .navbar-startup .navbar-nav {
     margin: 0 -15px;
   }
-  .navbar-solo .navbar-nav > li > a {
+  .navbar-startup .navbar-nav > li > a {
     text-align: center;
     border-top: 1px solid #674423;
   }
-  .navbar-solo .navbar-nav > li > a:hover,
-  .navbar-solo .navbar-nav > li > a:focus {
+  .navbar-startup .navbar-nav > li > a:hover,
+  .navbar-startup .navbar-nav > li > a:focus {
     background-color: #764e28;
   }
 }
-.navbar-solo .navbar-toggle {
+.navbar-startup .navbar-toggle {
   border-color: #674423;
 }
-.navbar-solo .navbar-toggle:hover,
-.navbar-solo .navbar-toggle:focus {
+.navbar-startup .navbar-toggle:hover,
+.navbar-startup .navbar-toggle:focus {
   background-color: #764e28;
 }
-.navbar-solo .navbar-toggle .icon-bar {
+.navbar-startup .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-.navbar-solo .navbar-collapse,
-.navbar-solo .navbar-form {
+.navbar-startup .navbar-collapse,
+.navbar-startup .navbar-form {
   border-color: #7a5029;
 }
 @media (max-width: 767px) {
-  .navbar-solo .navbar-collapse {
+  .navbar-startup .navbar-collapse {
     border-top: 0;
   }
-  .navbar-solo .navbar-brand {
+  .navbar-startup .navbar-brand {
     margin-left: 15px;
   }
 }
 @media (min-width: 768px) {
-  .navbar-solo-collapse {
+  .navbar-startup-collapse {
     float: right;
   }
 }
@@ -506,7 +506,7 @@ h4 {
 .box .box-body > p:last-child {
   margin-bottom: 0;
 }
-.box .box-footer .btn-solo {
+.box .box-footer .btn-startup {
   border-radius: 0;
 }
 .box-opensource {

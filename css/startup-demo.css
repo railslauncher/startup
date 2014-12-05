@@ -1,0 +1,56 @@
+/*
+  This CSS file is just to demonstrate the themes of Solo. This should be removed from your site.
+ */
+
+.settings-panel {
+  position: fixed;
+  right: -162px;
+  top: 20%;
+  z-index: 10001;
+}
+
+.settings-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  padding: 7px;
+  color: #555;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-right: 0;
+  position: relative;
+  left: 1px;
+}
+
+.settings-btn > i {
+  font-size: 28px;
+}
+
+.settings {
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.settings-row {
+  margin-top: 10px;
+}
+
+.settings-row:first-child {
+  margin-top: 0;
+}
+
+.settings-row .settings-item {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.settings-row .settings-item.last {
+  margin-right: 0;
+}

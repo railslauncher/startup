@@ -20,9 +20,9 @@ $(document).ready(function() {
     var stylesheet = $('#theme-styles');
     
     if(theme == 'default') {
-      stylesheet.attr('href', 'css/solo.min.css');
+      stylesheet.attr('href', 'css/startup.min.css');
     } else {
-      stylesheet.attr('href', 'css/solo-'+theme+'.min.css');
+      stylesheet.attr('href', 'css/startup-'+theme+'.min.css');
     }
   });
 });
