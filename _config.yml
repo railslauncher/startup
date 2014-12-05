@@ -1,1 +1,2 @@
 exclude: ['node_modules', 'package.json', 'Gruntfile.js']
+destination: _gh_pages
