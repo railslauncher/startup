@@ -1,4 +1,4 @@
-/*! Solo v1.0.0 - Responsive single page theme built on Bootstrap 3.2.0
+/*! Startup v1.0.0 - Responsive single page theme built on Bootstrap 3.2.0
  *  Copyright 2014 Railslauncher<railslauncher@gmail.com>
  */
 
@@ -6,7 +6,7 @@ $(document).ready(function() {
 	// Scrolls to the given selector. The selector can be any valid jQuery selector.
 	// Usage: scrollToTarget('#home')
   var scrollToTarget = function(selector) {
-    var currentScroll = $(selector).offset().top - $('.navbar-solo').height()+1;
+    var currentScroll = $(selector).offset().top - $('.navbar-startup').height()+1;
 
     $('html, body').animate({scrollTop: currentScroll}, 1000);
   };
@@ -54,7 +54,7 @@ $(document).ready(function() {
   $('.nav.navbar-nav a, .navbar-brand').on('click', function(event) {
     event.preventDefault();
 
-    var navbarCollapse =  $('.navbar-solo-collapse');
+    var navbarCollapse =  $('.navbar-startup-collapse');
     var link = $(this);
     var target = link.attr('href');
 
