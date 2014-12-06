@@ -1,4 +1,5 @@
 _site
+_gh_pages
 node_modules
 /.idea
 css/startup-demo.min.css
