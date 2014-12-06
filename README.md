@@ -1,17 +1,21 @@
-# Startup - Single page website for startup company and freelancers
+# Startup - Single page website for startup companies and freelancers
 
 Startup is a complete responsive single page website crafted with care for startup company and freelancers. 
 Startup can be used to showcase the skills, services, portfolios, education, employment and open source projects.
 
+[Live Demo](http://railslauncher.github.io/startup)
+
+[Documentation](http://railslauncher.github.io/startup/docs/startup.html)
+
 ## Features
 
   * **100%** responsive
-  * Valid [HTML5](http://validator.w3.org/check?uri=http%3A%2F%2Frailslauncher.herokuapp.com%2Fpreview%2Fsolo%2Findex.html) and [CSS3](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Frailslauncher.herokuapp.com%2Fpreview%2Fsolo%2Fcss%2Fsolo.min.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en)
-  * [Semantic HTML](http://services.w3.org/xslt?xmlfile=http%3A%2F%2Fservices.w3.org%2Ftidy%2Ftidy%3FdocAddr%3Dhttp%253A%252F%252Frailslauncher.herokuapp.com%252Fpreview%252Fsolo%252Findex.html%26passThroughXHTML%3D1&xslfile=http%3A%2F%2Fwww.w3.org%2F2002%2F08%2Fextract-semantic.xsl). Easy for search engines to index
+  * Valid HTML5 and CSS3
+  * Semantic HTML. Easy for search engines to index
   * **24** professional color schemes
   * **Built on LESS**
   * Modify just one LESS variable to generate theme with custom color
-  * **Well documented**. Both [HTML](http://railslauncher.herokuapp.com/preview/solo/docs/solo.html) and [PDF](http://railslauncher.herokuapp.com/preview/solo/docs/solo.pdf) version included
+  * **Well documented**. Both [HTML](http://railslauncher.github.io/startup/docs/startup.html) and [PDF](http://railslauncher.github.io/startup/docs/startup.pdf) version included
   * Awesome **responsive vertical timeline**. Can be used to showcase your professional experience, education and recent activities
   * Github repositories integration. Can be used to showcase your open source projects
   * Awesome CSS3 animations of web page on reveal
